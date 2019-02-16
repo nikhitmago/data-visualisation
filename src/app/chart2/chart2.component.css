@@ -1,0 +1,30 @@
+#buttondiv2 {
+    position:relative;
+    transition: .5s ease;
+    margin-right: 200px;
+    display: inline-block;
+}
+
+#tooltip {
+    text-align: center;
+    display: inline-block;
+    text-decoration-color: black;
+    font: 14px arial;		
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+}
+
+#tooltip_bar{
+    position: absolute;			
+    text-align: center;			
+    width: 50px;					
+    height: 18px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+    visibility: hidden;
+}

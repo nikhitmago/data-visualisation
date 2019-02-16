@@ -1,0 +1,8 @@
+ol {
+    list-style: inside;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: center;
+}

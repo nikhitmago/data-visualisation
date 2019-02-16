@@ -1,0 +1,33 @@
+#buttondiv {
+    position:relative;
+    transition: .5s ease;
+ 
+    display: inline-block;
+  
+    
+}
+
+#title {
+    position:center;
+    transition: .5s ease;
+    top: -20px;
+    left: 75px;
+}
+
+#tooltip{
+    position: absolute;			
+    text-align: center;			
+    width: 50px;					
+    height: 18px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.card{
+display: inline-block;
+}
